@@ -7,7 +7,7 @@ int main()
 {
     int a = 153, temp = a;
     int count, pal = 0;
-    count = (int)log10(a) + 1;
+    count = (int)log10(a) + 1; // count the number of digits in the number
     do
     {
         pal += pow(a % 10, count);

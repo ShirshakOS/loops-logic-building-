@@ -13,11 +13,15 @@ int main()
         cout << "Must be greater than 2";
         return 1;
     }
-    cout << a << " , " << b << " ";
+    cout << a << " , " << b << " , ";
     for (i = 1; i <= n - 2; i++)
     {
         sum = a + b;
-        cout << sum << " ";
+        cout << sum;
+        if (i != n-2)
+        {
+            cout << " , ";
+        }
         a = b;
         b = sum;
     }

@@ -1,16 +1,17 @@
-// find and print the sum of first n natural numbers
+// sum of all even numbers
 // using for loop
 #include<iostream>
 using namespace std;
 int main()
 {
-    int i, sum=0,range;
-    cout<<"Range: ";
-    cin>>range;
-    for(i=1;i<=range;i++)
+    int range=100, sum=0;
+    for(int i=1;i<=range;i++)
     {
-        sum+=i;
+        if(i%2==0)
+        {
+            sum+=i;
+        }
     }
-    cout<<"SUM: "<<sum;
+    cout<<"Sum: "<<sum;
     return 0;
 }

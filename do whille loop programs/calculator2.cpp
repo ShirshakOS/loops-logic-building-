@@ -21,7 +21,7 @@ int main()
         }
         else if (choice == 2)
         {
-            cout << "DIFFERENCE: " << ((a > b) ? (a - b) : (b - a)) << endl;
+            cout << "DIFFERENCE: " << (a > b) ? (a - b) : (b - a)) << endl;
         }
         else if (choice == 3)
         {

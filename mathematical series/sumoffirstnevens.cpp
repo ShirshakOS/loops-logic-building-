@@ -3,6 +3,7 @@
 using namespace std;
 int main()
 {
+    cout<<"hi";
     int n = 6; // 2,4,6,8,10,12
     int count = 0, i = 1, sum = 0;
     while (count != n)

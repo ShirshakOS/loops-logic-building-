@@ -3,6 +3,7 @@
 using namespace std;
 int main()
 {
+    cout<<1<<endl;
     int a = 2,  // the first term
         d = 5,  // common difference
         n = 10; // number of terms

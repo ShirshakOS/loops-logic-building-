@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    cout<<"hi";
+    cout<<"hie";
     int n = 10;
     int count = 0, sum = 0, i = 1;
     while (count != n)

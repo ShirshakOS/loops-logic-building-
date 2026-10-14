@@ -9,6 +9,6 @@ int main()
         sum += n;
     }
     cout << "Sum of first " << n << " numbers is: " << sum << endl;
-    cout<<" hi";
+    cout<<" hii";
     return 0;
 }
